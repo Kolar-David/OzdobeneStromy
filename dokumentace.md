@@ -49,7 +49,7 @@ Funkce obdrží uzavřený interval klíčů a vrátí `pair` kde první složka
 
 `void refresh(Key key)`
 
-Pokud uživatel upravý zavoláním `find` nějaký vrchol, může se rozhodit výpočet pomocných hodnot ve vrcholech. 
+Pokud uživatel upraví zavoláním `find` nějaký vrchol, může se rozhodit výpočet pomocných hodnot ve vrcholech. 
 To lze napravit zavoláním funkce `refresh`, která aktualizuje vrcholy na cestě mezi vrcholem s daným klíčem a kořenem.
 
 
